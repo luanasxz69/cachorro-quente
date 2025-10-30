@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Dog Delícias | Peça o seu!</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+    <header>
+        <h1>🌭 Hot Dog Delícias</h1>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#contato">Contato</a>
+            <a href="#carrinho">🛒 Carrinho (0)</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h2>Nosso Menu</h2>
+
+            <div class="hotdog-item">
+                <h3>Clássico Americano</h3>
+                <p>Pão, salsicha, mostarda e ketchup.</p>
+                <p class="preco">R$ 10,00</p>
+                <button onclick="adicionarAoCarrinho('Clássico Americano', 10.00)">Adicionar</button>
+            </div>
+
+            <div class="hotdog-item">
+                <h3>Cachorro-Quente Gourmet</h3>
+                <p>Pão, duas salsichas, cheddar cremoso e bacon crocante.</p>
+                <p class="preco">R$ 15,00</p>
+                <button onclick="adicionarAoCarrinho('Cachorro-Quente Gourmet', 15.00)">Adicionar</button>
+            </div>
+
+            </section>
+
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+            <p>Faça seu pedido ou tire suas dúvidas!</p>
+            <p>📞 **WhatsApp:** (XX) XXXX-XXXX</p>
+            <p>📍 **Endereço:** Rua das Delícias, 123</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Hot Dog Delícias. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script> </body>
+</html>
